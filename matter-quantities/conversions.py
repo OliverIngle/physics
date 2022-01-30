@@ -1,4 +1,3 @@
-
 #Avogadro's number
 avogadro = 6.02 * (10 ** 23)
 
@@ -10,6 +9,4 @@ def moles_to_particles(n: float):
 def particles_to_moles(N: int):
     n = N / avogadro
     return n
-
-#
     
